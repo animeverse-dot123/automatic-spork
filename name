@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AnimeVerse</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#111;
+    color:white;
+}
+
+header{
+    background:#6a00ff;
+    padding:20px;
+    text-align:center;
+}
+
+nav{
+    background:#222;
+    padding:10px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    margin:15px;
+    text-decoration:none;
+}
+
+.hero{
+    padding:50px;
+    text-align:center;
+}
+
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+    padding:20px;
+}
+
+.card{
+    background:#1e1e1e;
+    border-radius:10px;
+    width:300px;
+    padding:20px;
+    box-shadow:0 0 10px rgba(255,255,255,0.1);
+}
+
+.card h2{
+    color:#9d6cff;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#222;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>AnimeVerse</h1>
+    <p>Your Anime Information Hub</p>
+</header>
+
+<nav>
+    #Home</a>
+    #Anime</a>
+    #Characters</a>
+    #News</a>
+</nav>
+
+<section class="hero">
+    <h2>Popular Anime</h2>
+    <p>Browse information about your favourite anime series.</p>
+</section>
+
+<section class="cards">
+
+<div class="card">
+    <h2>Attack on Titan</h2>
+    <p>Humans fight for survival against giant Titans threatening humanity.</p>
+</div>
+
+<div class="card">
+    <h2>Demon Slayer</h2>
+    <p>Tanjiro becomes a demon slayer to save his sister and avenge his family.</p>
+</div>
+
+<div class="card">
+    <h2>Jujutsu Kaisen</h2>
+    <p>Yuji Itadori enters the world of curses and sorcery.</p>
+</div>
+
+<div class="card">
+    <h2>Bunny Girl Senpai</h2>
+    <p>Sakuta helps people affected by the mysterious Adolescence Syndrome.</p>
+</div>
+
+</section>
+
+<footer>
+    <p>© 2026 AnimeVerse</p>
+</footer>
+
+</body>
+</html>
+
